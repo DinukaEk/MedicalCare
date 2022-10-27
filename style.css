@@ -716,6 +716,7 @@ ul,li {
     border-color: transparent;
     padding: 25px 0px;
     border-bottom: 1px solid #e3e3e3;
+    animation: slide-in 1s ease-out;
 }
 .navbar-brand {
     padding: 0;
@@ -4009,5 +4010,21 @@ ul,li {
         padding: 20px 0px 22px 75px !important;
     }
 }
+
+
+@keyframes slide-in {
+    0% {
+      top: -50px;
+    }
+    40% {
+      top: 15px;
+    }
+    70% {
+      top: 0px;
+    }
+    100% {
+      top: 5px;
+    }
+  }
 
 
