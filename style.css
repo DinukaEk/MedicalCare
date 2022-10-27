@@ -1,95 +1,3 @@
-/************************************************
-Template Name: Medical-Care Boostrap Template
-Author: BoostrapMart
-Develop By: BoostrapMart
-Developer URL: http://info@bootstrapmart.com
-************************************************/
-
-/*=================================================================
-*                     ~TABLE OF CONTENTS~                       *
-=================================================================
-01. FONTS INSTALLER
-    1.1 Raleway Fonts
-    1.2 Lato Fonts
-    1.3 Proxi Manova
-    1.4 Open Sans
-02. GENERAL SETTINGS
-    2.1 Typography
-    2.2 Background Colors
-    2.3 Button Classes
-    2.4 Margin & Padding Settings
-    2.5 Modal Overlay
-    2.6 Custom Lines
-    2.7 Color Classes
-    2.8 Image Hover Style
-03. TOPBAR
-04. NAVBAR / NAVIGATION MENUS
-    4.1 Navbar Header
-    4.2 Navbar Collapse
-    4.3 Search Button
-    4.4 Navbar Hover
-    4.5 Navbar Dropdown
-05. SUBHEADER & BREADCRUMB
-    5.1 Subheader
-    5.2 Breadcrumb
-06. SLIDERS
-    6.1 Section Slider 1
-    6.2 Section Slider 2
-07. CONTENTS
-    7.1 PAGE HOME
-        7.1.1 Section Make An Appointment
-        7.1.2 Section Make An Appointment Content
-        7.1.3 Section About Us
-        7.1.4 Section Our Department
-        7.1.5 Section Testimonial
-        7.1.6 Section Latest News
-    7.2 PAGE CONTACT US
-        7.2.1 Section Contact Us
-            7.2.1.1 Contents Left
-            7.2.1.2 Contents Right
-    7.3 PAGE OUR DEPARTMENTS
-        7.3.1 Section Our Departments 2
-        7.3.2 Section Testimonial 2
-    7.4 PAGE DOCTOR DETAILS
-        7.4.1 Section Doctor Deatils
-            7.4.1.1 Content Right Section 1
-            7.4.1.2 Content Right Section 2
-            7.4.1.3 Content Right Section 3
-            7.4.1.4 Content Right Section 4
-            7.4.1.5 Content Right Section 5
-    7.5 PAGE SHOP HOME
-        7.5.1 Section Shop Home
-        7.5.2 Section Offer Banner
-    7.6 PAGE TIME TABLE
-        7.6.1 Section Time Table
-    7.7 PAGE ABOUT US
-        7.7.1 Section 3points
-        7.7.2 Section Our Departments 3
-    7.8 PAGE CARDIAC CARE
-        7.8.1 Section Cardiac Care 3
-    7.9 PAGE BLOG LISTING
-        7.9.1 Blog Listing
-    7.10 PAGE BLOG POST
-        7.10.1 Section Blog Post
-            7.10.1.1 Content Left
-            7.10.1.2 Content Right
-        7.10.2 Blog Post Comment form
-08. SIDEBARS
-    8.1 Head OF The Departments
-    8.2 Opening Hours
-    8.3 Support Services
-09.FOOTER SECTION
-    9.1 Footer Column 1
-    9.2 Footer Column 2
-    9.3 Footer Column 3
-    9.4 Footer Copyright
-10.RESPONSIVE
-11.CROSS BROWSER & ISSUES
-
-/*============================
- *    01. FONTS INSTALLER    *
- *===========================*/
-/* 1.1 Raleway Fonts */ 
 @font-face {
     font-family: "Raleway-Light";
     src: url('fonts/raleway/raleway-light.eot');
@@ -141,7 +49,6 @@ Developer URL: http://info@bootstrapmart.com
     font-style: normal;
 }
 
-/* 1.2 Lato Fonts */ 
 @font-face {
     font-family: "Lato-Normal";
     font-weight: 400;
@@ -183,7 +90,6 @@ Developer URL: http://info@bootstrapmart.com
        url("fonts/lato/lato-black/lato-black.woff") format("woff");
 }
 
-/* 1.3 Proxi Manova */ 
 @font-face {
     font-family: "Proximanova-Regular";
     src: url('fonts/proximanova/proximanova-regular-webfont.eot');
@@ -193,7 +99,6 @@ Developer URL: http://info@bootstrapmart.com
          url('fonts/proximanova/proximanova-regular-webfont.svg') format('svg');
 }
 
-/* 1.4 Open Sans */
 @font-face {
   font-family: 'OpenSans-Regular';
   src: url("fonts/open-sans/Regular/OpenSans-Regular.eot?v=1.1.0");
@@ -232,9 +137,9 @@ Developer URL: http://info@bootstrapmart.com
 
 
 /*============================
- *   02. GENERAL SETTINGS    *
+ *    GENERAL SETTINGS    *
  ============================*/
-/* 2.1 Typography */
+/*  Typography */
 * {
     box-sizing: border-box;
     text-rendering: optimizeLegibility ;
@@ -340,7 +245,7 @@ ul,li {
     margin: -10px 0 15px;
 }
 
-/* 2.2 Background Colors */
+/* Background Colors */
 .bg-white{
     background-color: #ffffff;
 }
@@ -357,7 +262,7 @@ ul,li {
     background-color: #f0f5f7;
 }
 
-/* 2.3 Button Classes*/
+/* Button Classes*/
 /* Button Red */
 .red-btn {
     font-family: "Raleway-Bold";
@@ -430,7 +335,7 @@ ul,li {
     transition: all 0.2s ease;
 }
 
-/* 2.4 Margin & Padding Settings*/
+/* Margin & Padding Settings*/
 .m-top-12{margin-top:-12px;}
 .m-top10{margin-top:10px;}
 .m-top13{margin-top:13px;}
@@ -492,7 +397,7 @@ ul,li {
 .p-bot100{padding-bottom:100px;}
 .p-bot345{padding-bottom:345px;}
 
-/* 2.5 Modal Overlay */
+/* Modal Overlay */
 .modal-backdrop.in {
     filter: alpha(opacity=50);
     opacity: .8;
@@ -501,7 +406,7 @@ ul,li {
     padding-top: 200px;
 }
 
-/* 2.6 Custom Lines */
+/* Custom Lines */
 /* Lines 1 */
 .cross-line:before{
     font-size: 18px;
@@ -638,7 +543,7 @@ ul,li {
     left: 0px;
 }
 
-/* 2.7 Color Classes */
+/* Color Classes */
 .light-blue{
     color: #34ace1;
 }
@@ -646,7 +551,7 @@ ul,li {
     color: #0e4971;
 }
 
-/* 2.8 Image Hover Style */
+/* Image Hover Style */
 /* style 1 */
 .img-hover1 .image-wrap {
     z-index: 1;
@@ -791,15 +696,15 @@ ul,li {
     color:#fff;
 }
 /*====================
- *    03. TOPBAR     *
+ *    TOPBAR     *
  ====================*/
 /* [~Create Code Here~] */
 
 /*====================================
- *  04. NAVBAR / NAVIGATION MENUS    *
+ *   NAVBAR / NAVIGATION MENUS    *
  ====================================*/
 
- /* 4.1 Navbar Header */
+ /*  Navbar Header */
 .navbar {
     margin-bottom: 0px;
 }
@@ -839,7 +744,7 @@ ul,li {
     transition: all 0.2s ease;
 }
 
-/* 4.2 Navbar Collapse */
+/*  Navbar Collapse */
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -850,7 +755,7 @@ ul,li {
     background-color: #34ace1;
 }
 
-/* 4.3 Search Button */
+/*  Search Button */
 .search-btn{
     margin-top:12px;
     color:#34ace1;
@@ -923,12 +828,12 @@ ul,li {
     border: none;
 }
 
-/* 4.4 Navbar Hover */
+/*  Navbar Hover */
 /*.navbar-nav li.dropdown:hover > .dropdown-menu {
     display: block;
 }*/
 
-/* 4.5 Navbar Dropdown */
+/*  Navbar Dropdown */
 .dropdown-menu > li > a {
     font-family: "Raleway-Medium";
     color: #072643 !important;
@@ -943,16 +848,16 @@ ul,li {
     transition: all 0.2s ease;
 }
 /*================================
- *   05. SUBHEADER & BREADCRUMB  *
+ *    SUBHEADER & BREADCRUMB  *
  ================================*/
-/* 5.1 Subheader */
+/*  Subheader */
 #section-subheader img{
     width: 100%;
     height: 234px;
     object-fit: cover;
 }
 
-/* 5.2 Breadcrumb */
+/*  Breadcrumb */
 #section-breadcrumb{
     padding: 21px 0;
 }
@@ -989,9 +894,9 @@ ul,li {
     margin-left:16px;
 }
 /*====================
- *     06. SLIDERS    *
+ *      SLIDERS    *
  ====================*/
-/* 6.1 Section Slider 1 */
+/*  Section Slider 1 */
 #section-slider1 {
     width: 100%;
     max-height: 556px;
@@ -1098,7 +1003,7 @@ ul,li {
     background: #f55692;
 }
 
-/* 6.2 Section Slider 2 */
+/*  Section Slider 2 */
 #section-slider2 {
     width: 100%;
     max-height: 476px;
@@ -1137,12 +1042,12 @@ ul,li {
 }
 
 /*====================
- *    07. CONTENTS    *
+ *     CONTENTS    *
  ====================*/
 /*====================
-  *  7.1 PAGE HOME    *
+  *   PAGE HOME    *
  =====================*/
-/* 7.1.1 Section Make An Appointment */
+/*  Section Make An Appointment */
 #section-makeanappointment{
     position: relative;
     left: 0;
@@ -1183,7 +1088,7 @@ ul,li {
     margin: 0 8px;
 }
 
-/* 7.1.2 Section Make An Appointment Content */
+/*  Section Make An Appointment Content */
 #section-makeanappointment-content{
     background-color: #34ace1;
 }
@@ -1249,7 +1154,7 @@ ul,li {
     left: 6px;
 }
 
-/* 7.1.3 Section About Us */
+/*  Section About Us */
 #section-aboutus h4{
     font-family: "Raleway-Medium";
     font-size: 27px;
@@ -1285,7 +1190,7 @@ ul,li {
     margin-left: 100px;
 }
 
-/* 7.1.4 Section Our Department */    
+/*  Section Our Department */    
 #light-grey-bg{
     background-color: #f0f5f7;
 }
@@ -1331,7 +1236,7 @@ ul,li {
     transition: all 0.4s ease;
 }
 
-/* 7.1.5 Section Meet Our Doctors */    
+/* Section Meet Our Doctors */    
 #section-meetourdoctors h3{
     font-family: "Raleway-Bold";
     color: #34ace1;
@@ -1374,7 +1279,7 @@ ul,li {
     margin-bottom: 57px;
 }
 
-/* 7.1.6 Section Testimonial */ 
+/*  Section Testimonial */ 
 #section-testimonial{
     background-color: #ffffff;
     margin-bottom: 55px;
@@ -1464,7 +1369,7 @@ ul,li {
     min-height: 300px;
 }
 
-/* 7.1.7 Section Latest News */    
+/*  Section Latest News */    
 #section-latestnews{
     margin-bottom: 73px;
 }
@@ -1536,9 +1441,9 @@ ul,li {
     border-radius: 30px;
 }
 /*========================
- *  7.2 PAGE CONTACT US  *
+ *   PAGE CONTACT US  *
  ========================*/
-/* 7.2.1 Section Contact Us */    
+/*  Section Contact Us */    
 #section-contactus{
     padding-top: 15px;
     padding-bottom: 90px;
@@ -1569,7 +1474,7 @@ ul,li {
     position:relative;
 }
 
-/* 7.2.1.1 Contents Left */
+/*  Contents Left */
 #section-contactus .contents-left{
     padding: 40px;
 }
@@ -1618,7 +1523,7 @@ ul,li {
     transition: all 0.2s ease;
 }
 
-/* 7.2.1.2 Contents Right */
+/*  Contents Right */
 #section-contactus .contents-right h4{
     font-family: "Raleway-Bold";
     color: #556a79;
@@ -1688,7 +1593,7 @@ ul,li {
             filter: grayscale(100%);
 }
 
-/* 7.3.2 Section Testimonial 2 */ 
+/*  Section Testimonial 2 */ 
 #section-testimonial-2{
     background-color: #34ace1;
     text-align: center;
@@ -1765,9 +1670,9 @@ ul,li {
 }
 
 /*==============================
- *   7.4 PAGE DOCTOR DETAILS   *
+ *   PAGE DOCTOR DETAILS   *
  ==============================*/
-/* 7.4.1 Section Doctor Deatils */
+/*  Section Doctor Deatils */
 #section-doctordetails h3{
     font-family: "Raleway-Bold";
     color: #34ace1;
@@ -1871,7 +1776,7 @@ ul,li {
     padding: 14px 20px 20px;
 }
 
-/* 7.4.1.1 Content Right Section 1 */
+/*  Content Right Section 1 */
 .content-right-section1{
     padding: 0 12px;
 }
@@ -1892,7 +1797,7 @@ ul,li {
     padding-left: 10px;
     margin-bottom: 5px;
 }
-/* 7.4.1.2 Content Right Section 2 */
+/*  Content Right Section 2 */
 .content-right-section2{
     padding: 0 12px;
 }
@@ -1915,7 +1820,7 @@ ul,li {
     color: #435663;
 }
 
-/* 7.4.1.3 Content Right Section 3 */
+/*  Content Right Section 3 */
 .content-right-section3{
     padding: 0 12px;
 }
@@ -1972,7 +1877,7 @@ ul,li {
     transition: all 0.2s ease;
 }
 
-/* 7.4.1.4 Content Right Section 4 */
+/*  Content Right Section 4 */
 .content-right-section4{
     padding: 0 12px;
 }
@@ -1988,7 +1893,7 @@ ul,li {
     line-height: 1.6;
 }
 
-/* 7.4.1.5 Content Right Section 5 */
+/*  Content Right Section 5 */
 #section-doctordetails > .row > .right .content-right-section5 .section5{
     margin: 37px 0 0;
     padding: 25px 25px;
@@ -2075,9 +1980,9 @@ ul,li {
 }
 
 /*==============================
- *     7.5 PAGE SHOP HOME      *
+ *      PAGE SHOP HOME      *
  ==============================*/
-/* 7.5.1 Section Shop Home */
+/*  Section Shop Home */
 #section-shop-home h3{
     font-family: "Raleway-Bold";
     color: #34ace1;
@@ -2195,7 +2100,7 @@ ul,li {
     transition: all 0.3s ease;
 }
 
-/* 7.5.2 Section Offer Banner */
+/*  Section Offer Banner */
 #section-offer-banner{
     background-image: url(assets/images/offer-banner-BG_2.png);
     background-position: center center;
@@ -2238,9 +2143,9 @@ ul,li {
 }
 
 /*==============================
- *     7.6 PAGE TIME TABLE     *
+ *      PAGE TIME TABLE     *
  ==============================*/
-/* 7.6.1 Section Time Table */    
+/*  Section Time Table */    
 #section-timetable{
     padding-top: 15px;
     padding-bottom: 90px;
@@ -2422,9 +2327,9 @@ ul,li {
 }
 
 /*===========================
- *    7.7 PAGE ABOUT US     *
+ *     PAGE ABOUT US     *
  ===========================*/
-/* 7.7.1 Section 3points */
+/*  Section 3points */
 #section-3points{
     padding: 56px 0;
 }
@@ -2465,7 +2370,7 @@ ul,li {
     margin-top: -6px;
 }
 
-/* 7.7.2 Section Our Departments 3 */
+/*  Section Our Departments 3 */
 #section-ourdepartments3{
     padding: 47px 0 8px;
 }
@@ -2584,9 +2489,9 @@ ul,li {
 }
 
 /*===========================
- *  7.8 PAGE CARDIAC CARE   *
+ *   PAGE CARDIAC CARE   *
  ===========================*/
-/* 7.8.1 Section Cardiac Care 3 */
+/*  Section Cardiac Care 3 */
 #section-cardiaccare{
     padding-bottom: 73px;
     padding-top: 15px;
@@ -2705,9 +2610,9 @@ ul,li {
 }
 
 /*===========================
- *   7.9 PAGE BLOG LISTING  *
+ *    PAGE BLOG LISTING  *
  ===========================*/
-/* 7.9.1 Blog Listing */
+/*  Blog Listing */
 #section-bloglisting,
 #section-bloglisting-1{
     padding-top: 15px;
@@ -2927,16 +2832,7 @@ ul,li {
     text-align: center;
     margin-bottom: 28px;
 }
-/*#section-bloglisting-1 .list-blogs .blog-item .overlay .date:before{
-    content:"";
-    border-bottom:1px solid #c9eeff;
-    position:absolute;
-    width:50%;
-    left:0;
-    right:0;
-    top:65%;
-    margin:0 auto;
-}*/
+
 #section-bloglisting-1 .list-blogs .blog-item .overlay .comments{
     font-family: "Raleway-Bold";
     font-size: 14px;
@@ -3027,9 +2923,9 @@ ul,li {
 }
 
 /*============================
- *    7.10 PAGE BLOG POST    *
+ *     PAGE BLOG POST    *
  ============================*/
-/* 7.10.1 Section Blog Post */
+/*  Section Blog Post */
 #section-blogpost{
     padding-top: 15px;
     padding-bottom: 65px;
@@ -3056,7 +2952,7 @@ ul,li {
     float:right;
     position:relative;
 }
-/* 7.10.1.1 Content Left */
+/*  Content Left */
 #section-blogpost .left{
     display: inline-flex;
     padding: 57px 15px;
@@ -3143,7 +3039,7 @@ ul,li {
     transition: all 0.2s ease;
 }
 
-/* 7.10.1.2 Content Right */
+/*  Content Right */
 #section-blogpost .right{
     margin-top: 35px;
     padding-right: 112px;
@@ -3199,7 +3095,7 @@ ul,li {
    margin-top: 8px;
 }
 
-/* 7.10.2 Blog Post Comment form */
+/*  Blog Post Comment form */
 #blogpost-commentsform{
     background-color: #ffffff;
     padding: 50px 0 57px;
@@ -3309,10 +3205,10 @@ ul,li {
 
 
 /*====================
- *    08. SIDEBARS   *
+ *     SIDEBARS   *
  ====================*/
 /* Sidebars */
-/* 8.1 Head OF The Departments */
+/* Head OF The Departments */
 .sidebars .head-of-the-departments > h4 {
     font-family: "Raleway-Bold";
     margin-bottom: 36px;
@@ -3422,7 +3318,7 @@ ul,li {
     margin-left: 5px;
 }
 
-/* 8.2 Opening Hours */
+/*  Opening Hours */
 .sidebars .opening_hours{
     background-color: #34ace1;
     padding-left:22px;
@@ -3496,7 +3392,7 @@ ul,li {
     color: #000000;
 }
 
-/* 8.3 Support Services */
+/* Support Services */
 .sidebars .support_services{
     background-color: #ffffff;
     padding: 7px 20px;
@@ -3533,12 +3429,12 @@ ul,li {
 }
 
 /*====================
- * 09.FOOTER SECTION *
+ * FOOTER SECTION *
  ====================*/
 #section-footer .ft_title{
     margin-bottom: 35px;
 }
-/* 9.1 Footer Column 1 */
+/* Footer Column 1 */
 #section-footer{
     background-color: #2d3b48;
     padding: 65px 0 0;
@@ -3647,7 +3543,7 @@ ul,li {
     background: #34ace1;
 }
 
-/* 9.2 Footer Column 2 */
+/*  Footer Column 2 */
 #section-footer > .container > .row > div:nth-of-type(2){
     padding: 0 54px;
 }
@@ -3685,7 +3581,7 @@ ul,li {
     top: -5px;
 }
 
-/* 9.3 Footer Column 3 */
+/* Footer Column 3 */
 #section-footer .ft_contactus_desc p{
     font-family: "Lato-Normal";
     font-size: 16px;
@@ -3704,7 +3600,7 @@ ul,li {
     transition: all 0.2s ease;
 }
 
-/* 9.4 Footer Copyright */
+/*  Footer Copyright */
 #section-footer .ft_copyright p{
     font-family: "Lato-Normal";
     font-size: 16px;
@@ -3716,7 +3612,7 @@ ul,li {
     margin-top: 8px;
 }
 /*====================
- *   10.RESPONSIVE   *
+ *  RESPONSIVE   *
  ====================*/
 
 @media only screen and ( max-width: 1199px ){
@@ -4101,9 +3997,9 @@ ul,li {
     }
 }
 /*==============================
- *  11.CROSS BROWSER & ISSUES  *
+ *  CROSS BROWSER & ISSUES  *
  ==============================*/
-/* 11.1 Mozilla Firefox Browser */
+/* Mozilla Firefox Browser */
 /* Cross Browser on Mozilla Firefox */
 @-moz-document url-prefix() { 
     #section-makeanappointment .phone-number {
@@ -4114,12 +4010,4 @@ ul,li {
     }
 }
 
-/* 11.2 Google Chrome Browser */
-     /*[~Create Code Here~]*/
-
-/* 11.3 Safari Browser */
-     /*[~Create Code Here~]*/
-
-/* 11.4 Internet Explorer */
-     /*[~Create Code Here~]*/
 
